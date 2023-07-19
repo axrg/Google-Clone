@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul class="horizontal-list">
+        <li> <a href="https://mail.google.com/mail/?authuser=0&ogbl" class="hipv">   Gmail</a></li>
+        <li> <a href="https://www.google.com/imghp?hl=es-419&ogbl"  class="hipv"> Imágenes </a></li>
+        <li> <a href=""> <img src="./images/grid.png"  class="hipv" alt=""> </a></li>
+        <li> <a href=""> <img src="./images/a.png"  class="hipv" alt=""> </a></li>
+
+    </ul>
+
+    <!-- Contenido de tu página -->
+    
+    <h1>   
+    </h1>
+
+    <div class="image-container">
+        <a href="https://www.google.com">
+        <img src="./images/logogra.png" alt="Descripción de la imagen" class="granlogo">
+        </a>
+    </div>
+    <br><br>
+      
+    <div class="search-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="">
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiR2pKNk5qAAxUHlGoFHYJgDaYQFnoECBwQAQ&url=https%3A%2F%2Flens.google%2Fintl%2Fes-419%2F&usg=AOvVaw1JFpOdzKQw8ugIhjsa8hF0&opi=89978449">
+        <img src="./images/imgcam.svg" alt="Descripción de la imagen" class="loguitos">
+        </a>
+        <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwi1zaGTnpqAAxW_k2oFHeyjB_UQPAgJ">
+        <img src="./images/micro.png" alt="Descripción de la imagen" class="loguitos2">
+        </a>
+    </div>
+
+    <div class="buttons">
+        <button class="search-button" onclick="guardarTexto()">Buscar con Google</button>
+        <button class="lucky-button">Voy a tener suerte</button>
+    </div>
+
+    <!-- Fin del contenido -->
+
+    <div class="textoc">
+        <p><span class="destacado">¡Nuevo!</span> Prueba la Billetera de
+         Google colab con Tecnolochicas
+    </div>
+
+         <footer class="google-footer">
+            <div class="footer-links">
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiw_InHv5uAAxWvOkQIHc3JDWsQFnoECBYQAQ&url=https%3A%2F%2Ftecnolochicas.mx%2Ftecnolochicas%2F&usg=AOvVaw2AT7Qr9TLsIzxObLSOkbNh&opi=89978449">Acerca de</a>
+              <a href="https://tecnolochicas.mx/camp1/">Publicidad</a>
+              <a href="https://tecnolochicas.mx/talleres/">Negocios</a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiSnab2v5uAAxXMJUQIHTQ-BuEQFnoECBcQAQ&url=https%3A%2F%2Fdevelopers.google.com%2Fsearch%2Fdocs%2Ffundamentals%2Fhow-search-works%3Fhl%3Des&usg=AOvVaw1WxK2RjQ873YuAM9I3D3PF&opi=89978449">Cómo funciona la búsqueda</a>
+            </div>
+            <div class="footer-links">
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwirzK3_v5uAAxWgJ0QIHSuTCFwQFnoECBgQAQ&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Des&usg=AOvVaw1lnvWw-516XVLRqx20oT6p&opi=89978449">Privacidad</a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjBxMiGwJuAAxVaMUQIHck4DtYQFnoECBoQAQ&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Des-419&usg=AOvVaw2Tnkklv5-TNn_gu92Bau7b&opi=89978449">Condiciones</a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi7zqOQwJuAAxV9I0QIHZWkBKkQFnoECA8QAw&url=https%3A%2F%2Fsupport.google.com%2Fandroid%2Fanswer%2F3118621%3Fhl%3Des-419&usg=AOvVaw2EyCiBagSdr9TvrjbTVmh6&opi=89978449">Configuración</a>
+            </div>
+          </footer>
+          
+        </html>
+
+        
+   
+      
+    <script>
+        function guardarTexto() {
+            // Obtener el valor del campo de entrada
+            var searchInput = document.getElementById("search-input").value;
+
+            // Hacer lo que quieras con la variable searchInput
+            console.log("Texto ingresado: " + searchInput);
+            window.location.href = "https://www.google.com/search?q=" + encodeURIComponent(searchInput);
+
+            // Aquí puedes usar la variable searchInput para enviarla a un servidor, realizar una búsqueda, etc.
+        }
+    </script>
+    <!-- Fin del contenido -->
+
+
+</body>
+
+
+
+</html>

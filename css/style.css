@@ -1,0 +1,200 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+.horizontal-list {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 18px;
+    display: flex;
+    justify-content: flex-end; /* Alineación a la derecha */
+    margin-right: -10px;
+
+  }
+  
+  .horizontal-list li {
+    margin-right: 10px; /* Espacio entre elementos */
+  }
+
+  img{
+    width: 27px;
+    margin: -8px;
+    border-radius: 50%;
+
+  }
+
+  .hipv{
+    text-decoration: none;
+    margin-right: 10px; /* Aumentar el espacio entre elementos */
+    font-size: 16px;
+    
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* Opcional: ajusta la altura del contenedor */
+    text-align: center;
+  }
+  
+  .granlogo {
+    width: 300px;
+    border-radius: 0%;
+  }
+  
+  .search-bar {
+    display: block;
+    align-items: center;
+    height: 47px;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #d3d2d2;
+    border-radius: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    width: 94%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+
+  }
+  
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans 3';
+    
+
+  }
+  
+  .search-button, .lucky-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    color: #494949; /* Color del texto */
+  }
+  
+  
+  .search-button:hover, .lucky-button:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .search-button:focus, .lucky-button:focus {
+    outline: 2px;
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.3);
+  }
+
+  .textoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .destacado {
+    color: red; /* Cambia el color a tu preferencia */
+  }
+  
+  .img-d{
+    display: flex;
+    width: 40px; /* Opcional: ajusta la altura del contenedor */
+    text-align: center;
+
+  }
+
+  .img-d img {
+    position: absolute;
+    width: 40px;
+    top: 34%;
+    left: 12%;
+  }
+
+  .google-footer {
+    background-color: #f2f2f2;
+    padding: 1%;
+    text-align: center;
+    margin-top: 11%; /* Alto del footer negativo */
+
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    margin-right: 10px;
+    color: #70757a;
+    text-decoration: none;
+  }
+  
+
+  /* Sección input */
+main .main-input{
+  /* width - anchura */
+  width: 530px;
+  /* márgenes y centrado */
+  margin: 0 auto;
+  /* separar input de botones */
+  margin-bottom: 40px;
+}
+
+/* Cajita gris redondeada buscador */
+main .main-input-container{
+  /* ancho de línea, estilo y color */
+  border: 1px solid #dfe1e5;
+  /* Bordes redondeados */
+  border-radius: 30px;
+  width: 550px;
+}
+
+main .main-input input{
+  height: 40px;
+  width: 500px;
+  /* Quitar borde negro */
+  border: none;
+  /* Quitar borde azul al hacer click */
+  outline: none;
+}
+
+main .main-input .search-icon{
+  /* Poner una imagen */
+  background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+  /* Centrar la imagen */
+  background-position: center;
+  /* Tamaño del ícono */
+  width: 15px;
+  
+  background-size: contain;
+  padding-left: 6%;
+  background-repeat: no-repeat;
+}
+
+.loguitos{
+  position: relative;
+  width: 30px;
+  top: -70%;
+  left: 93%;
+  border-radius: 0%;
+}
+
+.loguitos2{
+  position: relative;
+  width: 18px;
+  top: -70%;
+  left: 84%;
+  border-radius: 0%;
+}
