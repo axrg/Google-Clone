@@ -1,7 +1,21 @@
-body{
-    font-family: 'Source Sans 3', sans-serif;
-    
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 0; /* Reset default margin to avoid unexpected behavior */
+  padding: 0; /* Reset default padding to avoid unexpected behavior */
 }
+
+/* Container for the main content area */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area (excluding the footer) */
+.main-content {
+  flex: 1; /* Take up remaining available space */
+}
+
 .horizontal-list {
     text-decoration: none;
     list-style: none;
@@ -122,25 +136,46 @@ body{
     top: 34%;
     left: 12%;
   }
+  
+/* Footer styles */
+.google-footer {
+  background-color: #f2f2f2;
+  padding: 1%;
+  text-align: center;
+  position: absolute;
+  bottom: 0; /* Position the footer at the bottom */
+  left: 0; /* Align the footer to the left */
+  width: 100%; /* Make the footer full width */
+}
 
-  .google-footer {
-    background-color: #f2f2f2;
-    padding: 1%;
-    text-align: center;
-    margin-top: 14%; /* Alto del footer negativo */
+.footer-links {
+  margin-bottom: 10px;
+}
 
-  }
+.footer-links a {
+  margin-right: 10px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin-right: 10px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+/* Optional: Add some spacing at the bottom to separate the footer from the rest of the content */
+.main-content {
+  margin-bottom: 80px; /* Adjust as needed */
+}
   
-  .footer-links {
-    margin-bottom: 10px;
-  }
-  
-  .footer-links a {
-    margin-right: 10px;
-    color: #70757a;
-    text-decoration: none;
-  }
-  
+
 
   /* Sección input */
 main .main-input{
