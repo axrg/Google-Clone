@@ -5,7 +5,7 @@ Este es un repositorio que contiene una clonación de la página de inicio de Go
 
 ## Vista Previa
 
-Puedes ver una vista previa en vivo del clon en [GitHub Pages](enlace_de_github_pages).
+Puedes ver una vista previa en vivo del clon en [GitHub Pages](https://tc-ax-gc.netlify.app/).
 
 ## Tecnologías utilizadas
 
